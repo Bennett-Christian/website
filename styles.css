@@ -1,0 +1,33 @@
+h1{
+    color: darkorange;
+    font-size: 30px;
+}
+
+h2 {
+    color: coral;
+    font-size: 26px;
+}
+
+h3 {
+    color: tomato;
+    font-size: 24px;
+}
+
+body {
+    background-color: #122981;
+    font-family: 'Poppins', 'Times New Roman', Arial, Helvetica, sans-serif;
+}
+
+p {
+    color: limegreen;
+    font-size: 22px;
+}
+
+li {
+    color: springgreen;
+    font-size: 21px;
+}
+
+a {
+    color: mediumspringgreen;
+}
