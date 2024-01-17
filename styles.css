@@ -4,6 +4,17 @@
     font-family: 'Poppins', 'Times New Roman', Arial, Helvetica, sans-serif;
     font-size: 100%;
     box-sizing: border-box;
+    /* margin: 0; */
+}
+
+.navigation {
+    background-color: #0D1B2A;
+    display: inline-block;
+    width: 20%;
+    margin: 0;
+    padding: 10px;
+    border: 1px solid red;
+    vertical-align: center;
 }
 
 body {
@@ -38,11 +49,8 @@ li {
     font-size: 21px;
 }
 
-.navigation {
-    display: inline-block;
-}
 
-.navigation, .lists {
+.lists {
     text-align: center;
     list-style-position: inside;
 }
