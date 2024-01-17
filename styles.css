@@ -1,6 +1,21 @@
+/* Home page styling */
+
+* {
+    font-family: 'Poppins', 'Times New Roman', Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E0E1DD;
+    font-size: 80%;
+    text-align: center;
+}
+
 h1{
     color: #0D1B2A;
     font-size: 30px;
+    text-align: center;
 }
 
 h2 {
@@ -13,11 +28,6 @@ h3 {
     font-size: 24px;
 }
 
-body {
-    background-color: #E0E1DD;
-    font-family: 'Poppins', 'Times New Roman', Arial, Helvetica, sans-serif;
-}
-
 p {
     color: #415A77;
     font-size: 22px;
@@ -28,6 +38,20 @@ li {
     font-size: 21px;
 }
 
+.navigation {
+    display: inline-block;
+}
+
+.navigation, .lists {
+    text-align: center;
+    list-style-position: inside;
+}
+
 a {
     color: #778DA9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
