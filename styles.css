@@ -61,6 +61,11 @@ li {
     list-style-position: inside;
 }
 
+.explain p {
+    font-size: 17px;
+    margin: 0 auto;
+}
+
 a {
     color: #778DA9;
     text-decoration: none;
