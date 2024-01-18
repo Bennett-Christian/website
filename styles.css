@@ -66,15 +66,18 @@ li {
     height: 340px;
 }
 
-.explain h2 {
+.explain h2, .usage h2, .disclaimers h2 {
     /* max-width: fit-content; */
     text-align: left;
     margin-left: 350px;
 }
 
-.explain p {
+.explain p, .usage p, .disclaimers p {
     font-size: 17px;
+    text-align: center;
+    /* margin: 50px 425px; */
     margin-right: 425px;
+    /* margin-left: 425px; */
 }
 
 .explain img {
