@@ -1,5 +1,4 @@
 /* Download page styling */
-
 * {
     font-family: 'Poppins', 'Times New Roman', Arial, Helvetica, sans-serif;
     font-size: 100%;
@@ -20,11 +19,7 @@
     display: inline-block;
     width: 20%;
     margin: 10px;
-    text-align: justify;
-}
-
-.nav_list a:hover {
-    background-color: #1B263B;
+    text-align: center;
 }
 
 body {
@@ -71,5 +66,5 @@ a {
 }
 
 a:hover {
-    text-decoration: underline;
+    color: #a97f77;
 }
