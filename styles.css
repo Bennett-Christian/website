@@ -56,6 +56,7 @@ body {
     top: 100%;
     left: 50%;
     transform: translate(-50%, -70%); */
+    margin-top: 300px;
     margin-left: auto;
     margin-right: auto;
     width: 30%;
@@ -99,13 +100,10 @@ li {
 }
 
 .explain img {
-    float: right;
-    position: absolute;
-    left: 500px;
-    width: 300px;
-    height: auto;
-    max-width: 100%;
-    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    height: 45%;
 }
 
 a {
