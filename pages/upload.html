@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> File Share - Upload</title>
     <link rel="stylesheet" href="../styles/upload.css">
-    <!-- Custom fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
@@ -29,23 +28,17 @@
                 </div>
             </div>
         </nav>
-        <h1>Welcome to the Uploads page!</h1>
+        <h1>Uploading</h1>
     </header>
     <main>
-        <!-- I had an idea to put the entirety of my explanations on this page, but then link the "below" buttons to the Home page -->
         <div class="main_container">
             <section>
-                <h2 id="Upload">Uploading</h2>
+                <h2 id="Upload">How to Upload</h2>
                     <p>This will be an Upload button.</p>
-                    <!-- Reminder to make this a working path at some point -->
-                    <a href="uploader.html" target="_blank">
-                        <img 
-                            src="../images/upload_button.jpg"
-                            alt="Upload button"
-                            width="175"
-                            height="175"
-                        />
-                    </a>
+                    <form action="./uploader.html">
+                        <input type="file" id="myFile" name="filename">
+                        <input type="submit">
+                    </form>
                 <h3>Uploading Files</h3>
                     <p>Select the "Upload" button above and then navigate on your device to the file you would like to share and select it.</p>
             </section>
