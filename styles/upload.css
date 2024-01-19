@@ -32,6 +32,7 @@
 }
 
 body {
+    background-image: url(../images/paisley_toptal.png);
     background-color: #E0E1DD;
     font-size: 80%;
     text-align: center;
@@ -78,30 +79,9 @@ h2 {
     font-size: 26px;
 }
 
-h3 {
-    color: #1B263B;
-    font-size: 24px;
-}
-
 p {
     color: #415A77;
     font-size: 22px;
-}
-
-li {
-    color: #778DA9;
-    font-size: 21px;
-}
-
-
-.lists {
-    text-align: center;
-    list-style-position: inside;
-}
-
-.explain h2, .usage h2, .disclaimers h2 {
-    text-align: left;
-    padding: 20px;
 }
 
 a {

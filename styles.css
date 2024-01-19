@@ -59,36 +59,14 @@ body {
     width: 30%;
 }
 
-h1{
-    color: #0D1B2A;
-    font-size: 30px;
-    text-align: center;
-}
-
 h2 {
     color: #1B263B;
     font-size: 26px;
 }
 
-h3 {
-    color: #1B263B;
-    font-size: 24px;
-}
-
 p {
     color: #415A77;
     font-size: 22px;
-}
-
-li {
-    color: #778DA9;
-    font-size: 21px;
-}
-
-
-.lists {
-    text-align: center;
-    list-style-position: inside;
 }
 
 .explain h2, .usage h2, .disclaimers h2 {
