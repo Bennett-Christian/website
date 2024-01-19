@@ -16,8 +16,9 @@
     vertical-align: center;
 }
 
-.nav_list li {
+.nav_list div{
     display: inline-block;
+    list-style-position: inside;
     width: 20%;
     margin: 10px;
     text-align: left;
