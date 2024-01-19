@@ -34,6 +34,8 @@
 body {
     background-image: url(../images/space_unsplash.jpg);
     background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
     background-color: #E0E1DD;
     font-size: 80%;
     text-align: center;
