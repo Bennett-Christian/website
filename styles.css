@@ -9,30 +9,27 @@
 
 .navigation {
     background-color: #0D1B2A;
-    display: inline-block;
+    display: flex;
     width: 100%;
     margin: 0;
     padding: 10px;
-    vertical-align: center;
-}
-
-.nav_list div{
-    display: flex;
-    list-style-position: inside;
-    width: 20%;
-    margin: 10px;
+    text-align: center;
 }
 
 .nav_left {
     display: flex;
     text-align: left;
+    font-size: x-large;
 }
 
 .nav_right {
-    justify-content: center;
+    justify-content: space-evenly;
+    margin: 0px 20px 0px 20px;
     flex-grow: 1;
     display: flex;
     flex:1 1 200px;
+    text-align: left;
+    font-size: large;
 }
 
 body {
