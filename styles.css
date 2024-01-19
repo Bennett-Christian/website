@@ -51,11 +51,14 @@ body {
 }
 
 .footer_container {
-    position: absolute;
+    /* position: absolute;
     margin: 700px 0px 0px 0px;
     top: 100%;
     left: 50%;
-    transform: translate(-50%, -70%);
+    transform: translate(-50%, -70%); */
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
 }
 
 h1{
