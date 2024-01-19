@@ -35,7 +35,7 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -30%);
+    transform: translate(-50%, -20%);
     text-align: left;
 }
 
@@ -44,10 +44,11 @@ body {
 }
 
 .footer_container {
-    position: relative;
-    top: 50%;
+    position: absolute;
+    margin: 700px 0px 0px 0px;
+    top: 100%;
     left: 50%;
-    transform: translate(-50%, -30%);
+    transform: translate(-50%, -70%);
 }
 
 h1{
@@ -90,7 +91,6 @@ li {
 .explain h2, .usage h2, .disclaimers h2 {
     /* max-width: fit-content; */
     text-align: left;
-    margin-left: 350px;
 }
 
 .explain img {
