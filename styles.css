@@ -17,11 +17,22 @@
 }
 
 .nav_list div{
-    display: inline-block;
+    display: flex;
     list-style-position: inside;
     width: 20%;
     margin: 10px;
+}
+
+.nav_left {
+    display: flex;
     text-align: left;
+}
+
+.nav_right {
+    justify-content: center;
+    flex-grow: 1;
+    display: flex;
+    flex:1 1 200px;
 }
 
 body {
