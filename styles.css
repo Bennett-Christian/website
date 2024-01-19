@@ -33,13 +33,21 @@ body {
     width: 400px;
     height: 1400px;
     position: absolute;
-    left: 500px;
-    padding: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -30%);
     text-align: left;
 }
 
 .main_container p {
-    font-size: 17px;
+    font-size: 14px;
+}
+
+.footer_container {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -30%);
 }
 
 h1{
