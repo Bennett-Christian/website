@@ -83,14 +83,9 @@ li {
     list-style-position: inside;
 }
 
-.explain {
-    /* width: 1400px;
-    height: 340px; */
-}
-
 .explain h2, .usage h2, .disclaimers h2 {
-    /* max-width: fit-content; */
     text-align: left;
+    padding: 20px;
 }
 
 .explain img {
