@@ -32,6 +32,8 @@
 }
 
 body {
+    background-image: url(../images/space_unsplash.jpg);
+    background-position: center;
     background-color: #E0E1DD;
     font-size: 80%;
     text-align: center;
@@ -94,17 +96,6 @@ li {
 .explain h2, .usage h2, .disclaimers h2 {
     text-align: left;
     padding: 20px;
-}
-
-.img_space {
-    margin-left: 28%;
-    margin-right: 25%;
-    width: 45%;
-    height: 45%;
-    background-image: url(../images/space_unsplash.jpg);
-    /* background-size: cover; */
-    background-position: center;
-    opacity: 0.9;
 }
 
 a {
